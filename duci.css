@@ -22,7 +22,7 @@
    /* Client Background */
    /* 1055 x 718 */
    /* Support jpg,jpeg,png,gif (or more, idk ¯\_(ツ)_/¯ ) */
-   --background: url('https://github.com/Tiesen226/theme/blob/main/ducibg.png?raw=true');
+   --background: url('https://raw.githubusercontent.com/Tiesen226/theme/main/ducibg.png');
 }
 
 
@@ -126,7 +126,7 @@
    -webkit-user-drag: none;
    background-color: transparent !important;
    /*225 x 720 */
-   background: url('https://github.com/Tiesen226/theme/blob/main/duci.png?raw=true') !important;
+   background: url('https://raw.githubusercontent.com/Tiesen226/theme/main/duci.png') !important;
    *box-shadow: inset 0px 0px 1278px rgba(220, 20, 60, 0.2);
    *border-radius: 20px 20px 0px 0px;
 }
@@ -267,7 +267,7 @@ div[class="vng-age-rating ember-view"] {
 }
 
 img[class="icon-image has-icon"] {
-   content: url('https://github.com/Tiesen226/theme/blob/main/1640249997549.gif?raw=true') !important;
+   content: url('https://raw.githubusercontent.com/Tiesen226/theme/main/1640249997549.gif') !important;
 }
 
 /* :host .lol-uikit-flat-button {
