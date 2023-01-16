@@ -1,0 +1,281 @@
+/* Source: Elaina Da Catto */
+/* This theme based on "Cute" theme by @PrincessAkira */
+
+/* Meow :3 */
+
+/* Imports */
+@font-face {
+   font-family: 'aegirseaborn';
+   src: url('https://raw.githubusercontent.com/Roydevil/Skadi-Theme/main/AegirSeaborn.ttf') format('truetype');
+   font-weight: normal;
+   font-style: normal;
+   font-display: swap;
+}
+
+
+:root {
+   /* Font */
+   --font-display: 'aegirseaborn', sans-serif !important;
+   --font-body: 'aegirseaborn', sans-serif !important;
+
+
+   /* Client Background */
+   /* 1055 x 718 */
+   /* Support jpg,jpeg,png,gif (or more, idk ¯\_(ツ)_/¯ ) */
+   --background: url('https://github.com/Tiesen226/theme/blob/main/ducibg.png?raw=true');
+}
+
+
+/* UI */
+.LcOverview__NavBarSlot-sc-1epub3v-3 {
+   top: 6.6rem;
+   left: 0;
+   right: 0.5rem;
+}
+
+/*
+.lpjjXv {
+   background-color: rgba(22, 22, 22, 0.726);
+   border: 1px solid rgba(22, 22, 22, 0.726);
+   border-radius: 0.5rem;
+}
+*/
+
+
+/* Patch Notes */
+.article-scrollable-body {
+   padding: 1rem;
+}
+
+.lcu-article-container .article-scrollable-body {
+   display: flex !important;
+   width: 100%;
+   text-align: center;
+   justify-content: center;
+   align-content: center;
+}
+
+
+/* Backgrounds */
+.bKpFom {
+   position: fixed;
+   top: 0;
+   right: 0;
+   bottom: 0;
+   left: 0;
+}
+
+/* Player icon (Only change by using Dev tools) */
+/* Find this shjt "icon-image has-icon" */
+.clash-root-background-landing,
+.hold-leave,
+.collections-application,
+.clash-root-background-landing,
+.__rcp-fe-lol-store,
+.loot-backdrop.background-static,
+.personalized-offers-root,
+.parties-view,
+.yourshop-root,
+.clash-root-background
+
+/* .champion-splash-background */
+   {
+   background: var(--background) !important;
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+
+.loot-backdrop .lol-uikit-video-content {
+   display: block;
+   box-sizing: border-box;
+   background: var(--background) !important;
+   width: 1055px;
+   height: 718px;
+   padding-left: 180px;
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+
+.rcp-fe-viewport-sidebar {
+   background-color: black !important;
+}
+
+.parties-view .parties-background {
+   opacity: 0;
+}
+
+/*
+.lol-uikit-dialog-frame {
+   background-color: rgba(22, 22, 22, 0.726);
+   border: 1px solid rgba(22, 22, 22, 0.726);
+   border-radius: 0.5rem;
+}
+*/
+
+.lol-social-sidebar {
+   width: 100%;
+   height: 100%;
+   position: relative;
+   display: flex;
+   flex-direction: column;
+   color: #00000008;
+   font-size: 12px;
+   cursor: default;
+   -webkit-user-drag: none;
+   background-color: transparent !important;
+   /*225 x 720 */
+   background: url('https://github.com/Tiesen226/theme/blob/main/duci.png?raw=true') !important;
+   *box-shadow: inset 0px 0px 1278px rgba(220, 20, 60, 0.2);
+   *border-radius: 20px 20px 0px 0px;
+}
+
+/* Hide VNG Age Ratings (Only change by using Dev tools) */
+/* Find this shjt ofc ".vng-age-rating-container" */
+.lol-uikit-dialog-frame.top,
+.lol-uikit-dialog-frame.bottom {
+   border: 2px white solid;
+}
+
+
+/* Icons */
+/* THL icon */
+.currency-be-icon-static {
+   background-image: url('https://raw.githubusercontent.com/Roydevil/Skadi-Theme/main/Orundum.png') !important;
+}
+
+/* RP icon */
+.currency-rp {
+   background-image: url('https://raw.githubusercontent.com/Roydevil/Skadi-Theme/main/Originite_Prime.png') !important;
+}
+
+
+/* Notification icon */
+.ticker-button,
+.ticker-button:hover,
+.navigation-status-ticker {
+   transition: all 0.2s ease-in-out;
+   size: 100%;
+}
+
+
+/* Misc */
+.navigation-status-ticker-content-no-link {
+   /* Notification Bg color */
+   background-color: rgba(248, 169, 201, 0.726);
+   border: 1px solid white;
+   border-radius: 0.5rem;
+   color: rgba(22, 22, 22, 0.626);
+}
+
+.navbar-blur {
+   position: absolute;
+   top: 0;
+   height: 79px;
+   width: 100%;
+   background: transparent;
+}
+
+/* .navbar-blur {
+    position: absolute;
+    top: 0;
+    height: 79px;
+    width: 100%;
+    background: transparent;
+} */
+
+.navbar_backdrop,
+.clash-tab-hub,
+.collections-routes,
+.__rcp-fe-lol-store iframe,
+.loot-contents,
+.parties-content,
+.clash-tab-team-root,
+.clash-tab-awards,
+.clash-tab-winners {
+   background-color: rgba(22, 22, 22, 0.626) !important;
+   transition: all 0.2s ease-in-out !important;
+}
+
+.personalized-offers-content-wrapper {
+   padding: 1.5rem;
+   border-radius: 0.5rem;
+   height: 95% !important;
+   background-color: rgba(22, 22, 22, 0.626);
+}
+
+.rcp-fe-lol-clash-full-sub-nav,
+.rcp-fe-lol-home-sub-nav {
+   left: 21rem !important;
+}
+
+.collections-sub-nav-component {
+   left: 10rem !important;
+}
+
+.clash-hub {
+   width: auto;
+}
+
+.clash-tab-team-content,
+.clash-hub,
+.custom-game-teams {
+   background-color: rgba(0, 0, 0, 0.8);
+   padding: 1rem;
+   border-radius: 10px;
+}
+
+.clash-tab-hub-content {
+   left: 15px !important;
+   right: 45px !important;
+}
+
+.clash-find-team-header {
+   background-color: transparent !important;
+}
+
+.loot-contents {
+   width: 66rem !important;
+}
+
+.clash-root-faq-button,
+.custom-game-teams {
+   left: 1rem !important;
+}
+
+/* 
+.play-button-content {
+   width: unset !important;
+   left: unset !important;
+}
+.play-button-content,
+.play-button-frame {
+   background-image: none !important;
+} */
+
+.v2-header-component {
+   margin: 0;
+}
+
+div[data-screen-name='rcp-fe-lol-navigation-screen'] {
+   border: 0;
+}
+
+div[class="vng-age-rating ember-view"] {
+   display: none;
+}
+
+img[class="icon-image has-icon"] {
+   content: url('https://github.com/Tiesen226/theme/blob/main/1640249997549.gif?raw=true') !important;
+}
+
+/* :host .lol-uikit-flat-button {
+   background-color: rgba(22, 22, 22, 0.726);
+   border: 1px solid white;
+   border-radius: 0.5rem;
+} */
+
+.purchase-history-page-content-wrapper {
+   background-color: rgba(212, 27, 119, 0.726);
+}
